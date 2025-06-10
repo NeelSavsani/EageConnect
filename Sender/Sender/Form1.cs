@@ -115,8 +115,8 @@ namespace Sender
         {
             try
             {
-                string pythonExe = @"C:\Users\neels\AppData\Local\Programs\Python\Python313\python.exe";
-                string scriptPath = @"D:\Neel\Code\Python\File sender\send_whatsapp_message.py";
+                string pythonExe = @"C:\Users\<YOUR USER NAME>\AppData\Local\Programs\Python\Python313\python.exe"; //File path for python
+                string scriptPath = @"<FILE PATH TO THE PYTHON FILE THAT HAS GIVEN IN THE MAIN BRANCH>"; //send_whatsapp_message.py
 
                 // Escape quotes for safety
                 message = message.Replace("\"", "\\\"");
