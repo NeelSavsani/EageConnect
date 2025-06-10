@@ -12,8 +12,8 @@ import os
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-chromedriver_path = r"C:\Windows\chromedriver.exe"
-user_data_dir = r"C:\Users\neels\AppData\Local\Google\Chrome\User Data\AutomationProfile"
+chromedriver_path = r"<PATH TO YOUR CHROME DRIVER>" #C:\Windows\chromedriver.exe
+user_data_dir = r"C:\Users\<YOUR USERNAME>\AppData\Local\Google\Chrome\User Data\AutomationProfile"
 
 def launch_driver(headless=True):
     chrome_options = Options()
